@@ -1,0 +1,134 @@
+'use strict';
+
+
+define('admin/manage/group', [
+	'forum/groups/memberlist',
+	'iconSelect',
+	'admin/modules/colorpicker',
+], function (memberList, iconSelect, colorpicker) {
+	var Groups = {};
+
+	Groups.init = function () {
+		var groupIcon = $('#group-icon');
+		var changeGroupUserTitle = $('#change-group-user-title');
+		var changeGroupLabelColor = $('#change-group-label-color');
+		var changeGroupTextColor = $('#change-group-text-color');
+		var groupLabelPreview = $('#group-label-preview');
+		var groupLabelPreviewText = $('#group-label-preview-text');
+
+		var groupName = ajaxify.data.group.name;
+
+		$('#group-selector').on('change', function () {
+			ajaxify.go('admin/manage/groups/' + $(this).val() + window.location.hash);
+		});
+
+		memberList.init('admin/manage/group');
+
+		changeGroupUserTitle.keyup(function () {
+			groupLabelPreviewText.text(changeGroupUserTitle.val());
+		});
+
+		changeGroupLabelColor.keyup(function () {
+			groupLabelPreview.css('background', changeGroupLabelColor.val() || '#000000');
+		});
+
+		changeGroupTextColor.keyup(function () {
+			groupLabelPreview.css('color', changeGroupTextColor.val() || '#ffffff');
+		});
+
+		$('[component="groups/members"]').on('click', '[data-action]', function () {
+			var btnEl = $(this);
+			var userRow = btnEl.parents('[data-uid]');
+			var ownerFlagEl = userRow.find('.member-name .user-owner-icon');
+			var isOwner = !ownerFlagEl.hasClass('invisible');
+			var uid = userRow.attr('data-uid');
+			var action = btnEl.attr('data-action');
+
+			switch (action) {
+			case 'toggleOwnership':
+				socket.emit('groups.' + (isOwner ? 'rescind' : 'grant'), {
+					toUid: uid,
+					groupName: groupName,
+				}, function (err) {
+					if (err) {
+						return app.alertError(err.message);
+					}
+					ownerFlagEl.toggleClass('invisible');
+				});
+				break;
+
+			case 'kick':
+				bootbox.confirm('[[admin/manage/groups:edit.confirm-remove-user]]', function (confirm) {
+					if (!confirm) {
+						return;
+					}
+					socket.emit('admin.groups.leave', {
+						uid: uid,
+						groupName: groupName,
+					}, function (err) {
+						if (err) {
+							return app.alertError(err.message);
+						}
+						userRow.slideUp().remove();
+					});
+				});
+				break;
+			default:
+				break;
+			}
+		});
+
+		$('#group-icon, #group-icon-label').on('click', function () {
+			iconSelect.init(groupIcon, function () {
+				var newIcon = groupIcon.attr('value');
+				if (newIcon === 'fa-nbb-none') {
+					newIcon = 'hidden';
+				}
+				$('#group-icon-preview').attr('class', 'fa fa-fw ' + (newIcon || 'hidden'));
+			});
+		});
+
+		colorpicker.enable(changeGroupLabelColor, function (hsb, hex) {
+			groupLabelPreview.css('background-color', '#' + hex);
+		});
+
+		colorpicker.enable(changeGroupTextColor, function (hsb, hex) {
+			groupLabelPreview.css('color', '#' + hex);
+		});
+
+		$('#save').on('click', function () {
+			socket.emit('admin.groups.update', {
+				groupName: groupName,
+				values: {
+					name: $('#change-group-name').val(),
+					userTitle: changeGroupUserTitle.val(),
+					description: $('#change-group-desc').val(),
+					icon: groupIcon.attr('value'),
+					labelColor: changeGroupLabelColor.val(),
+					textColor: changeGroupTextColor.val(),
+					userTitleEnabled: $('#group-userTitleEnabled').is(':checked'),
+					private: $('#group-private').is(':checked'),
+					hidden: $('#group-hidden').is(':checked'),
+					disableJoinRequests: $('#group-disableJoinRequests').is(':checked'),
+					disableLeave: $('#group-disableLeave').is(':checked'),
+				},
+			}, function (err) {
+				if (err) {
+					return app.alertError(err.message);
+				}
+
+				var newName = $('#change-group-name').val();
+
+				// If the group name changed, change url
+				if (groupName !== newName) {
+					ajaxify.go('admin/manage/groups/' + encodeURIComponent(newName), undefined, true);
+				}
+
+				app.alertSuccess('[[admin/manage/groups:edit.save-success]]');
+			});
+			return false;
+		});
+	};
+
+	return Groups;
+});

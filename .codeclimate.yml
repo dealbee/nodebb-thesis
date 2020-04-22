@@ -1,0 +1,22 @@
+# Save as .codeclimate.yml (note leading .) in project root directory
+version: "2"
+languages:
+  Ruby: false
+  JavaScript: true
+  PHP: false
+checks:
+  file-lines:
+    config:
+      threshold: 500
+  method-lines:
+    config:
+      threshold: 50
+  method-complexity:
+    config:
+      threshold: 10
+  similar-code:
+    config:
+      threshold: 65
+exclude_paths:
+- "public/vendor/*"
+- "test/*"

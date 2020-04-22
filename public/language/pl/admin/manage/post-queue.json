@@ -1,0 +1,11 @@
+{
+	"post-queue": "Kolejka postów",
+	"description": "Nie ma żadnych postów w kolejce. <br> Aby włączyć tą funkcję, idź do: Ustawienia &rarr; Post &rarr; Kolejka postów</a> i włącz <strong>kolejkę postów</strong>.",
+	"user": "Użytkownik",
+	"category": "Kategoria",
+	"title": "Tytuł",
+	"content": "Zawartość",
+	"posted": "Napisano",
+	"reply-to": "Odpowiedz do \"%1\"",
+	"content-editable": "Możesz kliknąć na danej treści, by edytować ją przed publikacją."
+}

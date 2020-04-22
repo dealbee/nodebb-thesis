@@ -1,0 +1,83 @@
+{
+	"section-general": "כללי",
+	"general/dashboard": "לוח מחוונים",
+	"general/homepage": "דף הבית",
+	"general/navigation": "ניווט",
+	"general/languages": "שפות",
+	"general/sounds": "שמע",
+	"general/social": "Social",
+
+	"section-manage": "ניהול",
+	"manage/categories": "קטגוריות",
+	"manage/privileges": "הרשאות",
+	"manage/tags": "תגיות",
+	"manage/users": "משתמשים",
+	"manage/admins-mods": "מנהלים ומנהלים כלליים",
+	"manage/registration": "תור הרשמה",
+	"manage/post-queue": "תור פוסטים",
+	"manage/groups": "קבוצות",
+	"manage/ip-blacklist": "רשימה שחורה של כתובות IP",
+	"manage/uploads": "העלאות",
+	"manage/digest": "Digests",
+
+	"section-settings": "הגדרות",
+	"settings/general": "כללי",
+	"settings/reputation": "מוניטין",
+	"settings/email": "דוא\"ל",
+	"settings/user": "משתמש",
+	"settings/group": "קבוצה",
+	"settings/guest": "אורח",
+	"settings/uploads": "העלאות",
+	"settings/post": "פוסט",
+	"settings/chat": "צ'אט",
+	"settings/pagination": "Pagination",
+	"settings/tags": "תגיות",
+	"settings/notifications": "התראות",
+	"settings/cookies": "עוגיות",
+	"settings/web-crawler": "Web Crawler",
+	"settings/sockets": "Sockets",
+	"settings/advanced": "מתקדם",
+
+	"settings.page-title": "%1 Settings",
+
+	"section-appearance": "Appearance",
+	"appearance/themes": "Themes",
+	"appearance/skins": "Skins",
+	"appearance/customise": "Custom Content (HTML/JS/CSS)",
+
+	"section-extend": "Extend",
+	"extend/plugins": "Plugins",
+	"extend/widgets": "Widgets",
+	"extend/rewards": "Rewards",
+
+	"section-social-auth": "Social Authentication",
+
+	"section-plugins": "תוספים",
+	"extend/plugins.install": "תוספים מותקנים",
+
+	"section-advanced": "מתקדם",
+	"advanced/database": "מסד נתונים",
+	"advanced/events": "Events",
+	"advanced/hooks": "Hooks",
+	"advanced/logs": "Logs",
+	"advanced/errors": "Errors",
+	"advanced/cache": "Cache",
+	"development/logger": "Logger",
+	"development/info": "Info",
+
+	"rebuild-and-restart-forum": "Rebuild & Restart Forum",
+	"restart-forum": "Restart Forum",
+	"logout": "Log out",
+	"view-forum": "View Forum",
+
+	"search.placeholder": "Search for settings",
+	"search.no-results": "No results...",
+	"search.search-forum": "Search the forum for <strong></strong>",
+	"search.keep-typing": "Type more to see results...",
+	"search.start-typing": "Start typing to see results...",
+
+	"connection-lost": "Connection to %1 has been lost, attempting to reconnect...",
+
+	"alerts.version": "Running <strong>NodeBB v%1</strong>",
+	"alerts.upgrade": "שדרג ל v%1"
+}

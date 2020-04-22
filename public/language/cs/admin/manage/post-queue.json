@@ -1,0 +1,11 @@
+{
+	"post-queue": "Fronta příspěvků",
+	"description": "Nejsou žádné příspěvky ve frontě. Pro povolení této funkčnosti, přejděte do <a href=\"%1\">Nastavení – Příspěvky – Fronta příspěvků</a> a povolte <strong>Fronta příspěvků</strong>.",
+	"user": "Uživatel",
+	"category": "Kategorie",
+	"title": "Název",
+	"content": "Obsah",
+	"posted": "Přidáno",
+	"reply-to": "Odpovědět na \"%1\"",
+	"content-editable": "Kvůli úpravám a před odesláním příspěvku můžete klikat na obsah."
+}

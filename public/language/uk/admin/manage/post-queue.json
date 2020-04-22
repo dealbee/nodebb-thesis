@@ -1,0 +1,11 @@
+{
+	"post-queue": "Черга Постів",
+	"description": "There are no posts in the post queue. <br> To enable this feature, go to <a href=\"%1\">Settings &rarr; Post &rarr; Post Queue</a> and enable <strong>Post Queue</strong>.",
+	"user": "Користувач",
+	"category": "Категорія",
+	"title": "Заголовок",
+	"content": "Зміст",
+	"posted": "Опубліковано",
+	"reply-to": "Відповідь для \"%1\"",
+	"content-editable": "Ви можете натиснути на окремий вміст, щоб редагувати його перед публікацією."
+}

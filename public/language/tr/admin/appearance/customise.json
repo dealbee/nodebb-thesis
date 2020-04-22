@@ -1,0 +1,16 @@
+{
+	"custom-css": "Özel CSS/LESS",
+	"custom-css.description": "Diğer tüm stillerden sonra uygulanacak kendi CSS/LESS kodlarınızı buraya girin.",
+	"custom-css.enable": "Özelleştirilmiş CSS/LESS  kullan",
+
+	"custom-js": "Özel Javascript",
+	"custom-js.description": "Buraya kendi javascript'inizi girin. Sayfa tamamen yüklendikten sonra çalışır.",
+	"custom-js.enable": "Özelleştirilmiş Javascript'i etkinleştir",
+
+	"custom-header": "Özel Header",
+	"custom-header.description": "Enter custom HTML here (ex. Meta Tags, etc.), which will be appended to the <code>&lt;head&gt;</code> section of your forum's markup. Script tags are allowed, but are discouraged, as the <a href=\"#custom-js\" data-toggle=\"tab\">Custom Javascript</a> tab is available.",
+	"custom-header.enable": "Özel Header'ı Etkinleştir",
+
+	"custom-css.livereload": "Canlı Yenilemeyi Etkinleştir",
+	"custom-css.livereload.description": "\"Kayıt Et\"e her bastığınızda size ait tüm cihazlardaki oturumların yenilenmeye zorlanması için bunu etkinleştirin."
+}

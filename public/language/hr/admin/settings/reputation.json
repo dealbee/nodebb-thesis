@@ -1,0 +1,14 @@
+{
+	"reputation": "Postavke reputacije",
+	"disable": "Onemogući reputacije",
+	"disable-down-voting": "Onemogući oduzimanje glasova",
+	"votes-are-public": "Svi glasovi su javni",
+	"thresholds": "Prag aktivnosti",
+	"min-rep-downvote": "Minimalna reputacija za glasanje protiv",
+	"min-rep-flag": "Minimalna reputacija za označavanje objava",
+	"min-rep-website": "Minimum reputation to add \"Website\" to user profile",
+	"min-rep-aboutme": "Minimum reputation to add \"About me\" to user profile",
+	"min-rep-signature": "Minimum reputation to add \"Signature\" to user profile",
+	"min-rep-profile-picture": "Minimum reputation to add \"Profile Picture\" to user profile",
+	"min-rep-cover-picture": "Minimum reputation to add \"Cover Picture\" to user profile"
+}

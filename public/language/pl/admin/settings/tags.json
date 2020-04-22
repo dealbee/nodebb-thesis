@@ -1,0 +1,10 @@
+{
+    "tag": "Ustawienia tagów",
+    "min-per-topic": "Minimalna liczba tagów na temat",
+    "max-per-topic": "Maksymalna liczba tagów na temat",
+    "min-length": "Minimalna długość tagu",
+    "max-length": "Maksymalna długość tagu",
+    "goto-manage": "Kliknij tutaj, by przejść do strony zarządzania tagami",
+    "related-topics": "Powiązane tematy",
+    "max-related-topics": "Maksymalna liczba powiązanych tematów do wyświetlenia (jeśli możliwe w ramach tematu)"
+}

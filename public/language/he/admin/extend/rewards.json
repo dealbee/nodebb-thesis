@@ -1,0 +1,17 @@
+{
+	"rewards": "פרסים",
+	"condition-if-users": "אם המשתמשים",
+	"condition-is": "Is:",
+	"condition-then": "אז:",
+	"max-claims": "מספר הפעמים הניתן לדרוש פרס",
+	"zero-infinite": "הזן 0 לאינסוף",
+	"delete": "מחק",
+	"enable": "הפעל",
+	"disable": "בטל",
+	"control-panel": "בקרת פרסים",
+	"new-reward": "פרס חדש",
+
+	"alert.delete-success": "הפרס נמחק בהצלחה",
+	"alert.no-inputs-found": "פרס לא חוקי - לא נמצא מידע!",
+	"alert.save-success": "הפרסים נשמרו בהצלחה"
+}

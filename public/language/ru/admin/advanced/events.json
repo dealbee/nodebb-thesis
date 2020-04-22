@@ -1,0 +1,11 @@
+{
+	"events": "События",
+	"no-events": "Нет событий",
+	"control-panel": "Панель управления событиями",
+	"filters": "Фильтр",
+	"filters-apply": "Применить фильтр",
+	"filter-type": "Тип события",
+	"filter-start": "Дата начала",
+	"filter-end": "Дата окончания",
+	"filter-perPage": "Записей на страницу"
+}

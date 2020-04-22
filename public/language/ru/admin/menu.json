@@ -1,0 +1,83 @@
+{
+	"section-general": "Общие",
+	"general/dashboard": "Панель управления",
+	"general/homepage": "Главная страница",
+	"general/navigation": "Навигация",
+	"general/languages": "Языки",
+	"general/sounds": "Звуки",
+	"general/social": "Шэринг",
+
+	"section-manage": "Управление",
+	"manage/categories": "Категории",
+	"manage/privileges": "Права доступа",
+	"manage/tags": "Метки",
+	"manage/users": "Пользователи",
+	"manage/admins-mods": "Администраторы и модераторы",
+	"manage/registration": "Очередь на регистрацию",
+	"manage/post-queue": "Очередь на публикацию",
+	"manage/groups": "Группы",
+	"manage/ip-blacklist": "Чёрный список IP",
+	"manage/uploads": "Загрузки",
+	"manage/digest": "Рассылки",
+
+	"section-settings": "Настройки",
+	"settings/general": "Основные",
+	"settings/reputation": "Репутация",
+	"settings/email": "Электронная почта",
+	"settings/user": "Пользователь",
+	"settings/group": "Группа",
+	"settings/guest": "Гости",
+	"settings/uploads": "Загрузки",
+	"settings/post": "Сообщения",
+	"settings/chat": "Чат",
+	"settings/pagination": "Пагинация",
+	"settings/tags": "Метки",
+	"settings/notifications": "Уведомления",
+	"settings/cookies": "Куки",
+	"settings/web-crawler": "Индексация",
+	"settings/sockets": "Сокеты",
+	"settings/advanced": "Расширенные",
+
+	"settings.page-title": "Настройки %1",
+
+	"section-appearance": "Оформление",
+	"appearance/themes": "Темы",
+	"appearance/skins": "Стили",
+	"appearance/customise": "Настройка контента (HTML/JS/CSS)",
+
+	"section-extend": "Расширения",
+	"extend/plugins": "Плагины",
+	"extend/widgets": "Виджеты",
+	"extend/rewards": "Награды",
+
+	"section-social-auth": "Авторизация",
+
+	"section-plugins": "Плагины",
+	"extend/plugins.install": "Установка плагинов",
+
+	"section-advanced": "Расширенные",
+	"advanced/database": "База данных",
+	"advanced/events": "Журнал событий",
+	"advanced/hooks": "Hooks",
+	"advanced/logs": "Системный журнал",
+	"advanced/errors": "Журнал ошибок",
+	"advanced/cache": "Кэш",
+	"development/logger": "Отладочный журнал",
+	"development/info": "Сведения о системе",
+
+	"rebuild-and-restart-forum": "Пересобрать и перезапустить форум",
+	"restart-forum": "Перезапустить форум",
+	"logout": "Выйти",
+	"view-forum": "Перейти на форум",
+
+	"search.placeholder": "Поиск в настройках",
+	"search.no-results": "Нет результата...",
+	"search.search-forum": "Искать <strong></strong> на форуме",
+	"search.keep-typing": "Наберите ещё что-нибудь, чтобы увидеть результат...",
+	"search.start-typing": "Наберите что-нибудь, чтобы увидеть результат...",
+
+	"connection-lost": "Соединение с %1 потеряно, пытаюсь переподключиться...",
+
+	"alerts.version": "Вы используете <strong>NodeBB версии <span id=\"version\">%1</span></strong>",
+	"alerts.upgrade": "Обновить до v%1"
+}

@@ -1,0 +1,11 @@
+{
+	"events": "Zdarzenia",
+	"no-events": "Brak zdarzeń",
+	"control-panel": "Panel zdarzeń",
+	"filters": "Filtry",
+	"filters-apply": "Zatwierdź filtry",
+	"filter-type": "Typ zdarzenia",
+	"filter-start": "Data początkowa",
+	"filter-end": "Data końcowa",
+	"filter-perPage": "Na stronę"
+}

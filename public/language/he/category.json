@@ -1,0 +1,22 @@
+{
+    "category": "קטגוריה",
+    "subcategories": "קטגוריות משנה",
+    "new_topic_button": "נושא חדש",
+    "guest-login-post": "התחבר כדי לפרסם",
+    "no_topics": "<strong>קטגוריה זו ריקה מנושאים.</strong><br />למה שלא תנסה להוסיף נושא חדש?",
+    "browsing": "צופים בנושא זה כעת",
+    "no_replies": "אין תגובות",
+    "no_new_posts": "אין פוסטים חדשים.",
+    "watch": "עקוב",
+    "ignore": "התעלם",
+    "watching": "עוקב",
+    "not-watching": "Not Watching",
+    "ignoring": "מתעלם",
+    "watching.description": "Show topics in unread and recent",
+    "not-watching.description": "Do not show topics in unread, show in recent",
+    "ignoring.description": "Do not show topics in unread and recent",
+    "watching.message": "You are now watching updates from this category and all subcategories",
+    "notwatching.message": "You are not watching updates from this category and all subcategories",
+    "ignoring.message": "You are now ignoring updates from this category and all subcategories",
+    "watched-categories": "קטגוריות נעקבות"
+}

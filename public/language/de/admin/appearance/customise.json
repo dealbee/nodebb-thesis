@@ -1,0 +1,16 @@
+{
+	"custom-css": "Benutzerdefiniertes CSS/LESS",
+	"custom-css.description": "Füge deine eigenen CSS/LESS deklarationen hier ein, die nach allen anderen Styles angewandt werden.",
+	"custom-css.enable": "Aktiviere benutzerdefiniertes CSS/LESS",
+
+	"custom-js": "Benutzerdefiniertes Javascript",
+	"custom-js.description": "Füge dein eigenes Javascipt hier ein.\nEs wird ausgeführt nachdem die Seite komplett geladen wurde.",
+	"custom-js.enable": "Benutzerdefiniertes Javascript aktivieren",
+
+	"custom-header": "Benutzerdefinierter Header",
+	"custom-header.description": "Enter custom HTML here (ex. Meta Tags, etc.), which will be appended to the <code>&lt;head&gt;</code> section of your forum's markup. Script tags are allowed, but are discouraged, as the <a href=\"#custom-js\" data-toggle=\"tab\">Custom Javascript</a> tab is available.",
+	"custom-header.enable": "Benutzerdefinierten Header aktivieren",
+
+	"custom-css.livereload": "Live-Aktualisierung aktivieren",
+	"custom-css.livereload.description": "Aktiviere diese Einstellung um alle Sitzungen auf allen Geräten mit deinem Konto dazu zu zwingen Neuzuladen sobald du \"Speichern\" drückst"
+}

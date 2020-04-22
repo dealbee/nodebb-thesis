@@ -1,0 +1,10 @@
+{
+    "tag": "Nastavenie značky",
+    "min-per-topic": "Minimálny počet značiek pre jednotlivé témy",
+    "max-per-topic": "Maximálny počet značiek na tému",
+    "min-length": "Minimálna dĺžka značky",
+    "max-length": "Maximálna dĺžka značky",
+    "goto-manage": "K presunu na stránku správy značiek, kliknite sem.",
+    "related-topics": "Súvisiace témy",
+    "max-related-topics": "Maximálny počet zobrazených súvisiacich tém (ak je podporované motívom)"
+}

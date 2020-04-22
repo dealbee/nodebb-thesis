@@ -1,0 +1,11 @@
+{
+	"post-queue": "Beitragswarteschlange",
+	"description": "There are no posts in the post queue. <br> To enable this feature, go to <a href=\"%1\">Settings &rarr; Post &rarr; Post Queue</a> and enable <strong>Post Queue</strong>.",
+	"user": "Benutzer",
+	"category": "Kategorie",
+	"title": "Titel",
+	"content": "Inhalt",
+	"posted": "Gepostet",
+	"reply-to": "Auf \"%1\" antworten",
+	"content-editable": "Du kannst auf den einzelnen Inhalt klicken um ihn zu ändern bevor du ihn postest."
+}

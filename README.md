@@ -1,3 +1,14 @@
+# LUẬN VĂN CNTN2016
+
+**Giáo viên hướng dẫn:**
+* TS. Nguyễn Văn Vũ
+* Võ Thanh Quang
+
+**Sinh viên thực hiện:**
+* Lâm Cương Đạt: *1612098*
+* Lê Nhựt: *1612879*
+
+# NodeBB
 # <img alt="NodeBB" src="http://i.imgur.com/mYxPPtB.png" />
 
 [![Build Status](https://travis-ci.org/NodeBB/NodeBB.svg?branch=master)](https://travis-ci.org/NodeBB/NodeBB)

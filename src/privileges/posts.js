@@ -133,9 +133,9 @@ module.exports = function (privileges) {
 		}
 
 		const isLocked = await topics.isLocked(results.postData.tid);
-		if (!results.isMod && isLocked) {
-			return { flag: false, message: '[[error:topic-locked]]' };
-		}
+		// if (!results.isMod && isLocked) {
+		// 	return { flag: false, message: '[[error:topic-locked]]' };
+		// }
 
 		if (!results.isMod && results.postData.deleted && parseInt(uid, 10) !== parseInt(results.postData.deleterUid, 10)) {
 			return { flag: false, message: '[[error:post-deleted]]' };

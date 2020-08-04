@@ -1,23 +1,23 @@
 {
 	"icon": "Icon:",
-	"change-icon": "change",
+	"change-icon": "thay đổi",
 	"route": "Route:",
 	"tooltip": "Tooltip:",
-	"text": "Text:",
+	"text": "Nội dung:",
 	"text-class": "Text Class: <small>optional</small>",
 	"class": "Class: <small>optional</small>",
 	"id": "ID: <small>optional</small>",
 
-	"properties": "Properties:",
-	"groups": "Groups:",
-	"open-new-window": "Open in a new window",
+	"properties": "Thuộc tính:",
+	"groups": "Hiển thị với các nhóm:",
+	"open-new-window": "Mở ở tab khác",
 
-	"btn.delete": "Delete",
+	"btn.delete": "Xóa",
 	"btn.disable": "Disable",
 	"btn.enable": "Enable",
 
-	"available-menu-items": "Available Menu Items",
-	"custom-route": "Custom Route",
+	"available-menu-items": "Những route đang có trên menu",
+	"custom-route": "Rote tùy chỉnh",
 	"core": "core",
 	"plugin": "plugin"
 }

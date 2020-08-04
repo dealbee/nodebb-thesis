@@ -1,6 +1,6 @@
 {
-    "category": "Chuyên mục",
-    "subcategories": "Chuyên mục con",
+    "category": "Chủ đề",
+    "subcategories": "Chủ đề con",
     "new_topic_button": "Chủ đề mới",
     "guest-login-post": "Đăng nhập để viết bài",
     "no_topics": "<strong>Không có bài viết trong danh mục này.</strong><br />Hãy đăng một bài viết mới.",
@@ -18,5 +18,5 @@
     "watching.message": "Bây giờ bạn đang xem cập nhật từ danh mục này và tất cả các danh mục phụ",
     "notwatching.message": "Bạn không xem cập nhật từ danh mục này và tất cả các danh mục phụ",
     "ignoring.message": "Bây giờ bạn đang bỏ qua các cập nhật từ danh mục này và tất cả các danh mục phụ",
-    "watched-categories": "Các chuyên mục đã quan tâm"
+    "watched-categories": "Các chủ đề đã quan tâm"
 }

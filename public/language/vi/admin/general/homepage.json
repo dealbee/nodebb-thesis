@@ -1,8 +1,8 @@
 {
-	"home-page": "Home Page",
-	"description": "Choose what page is shown when users navigate to the root URL of your forum.",
-	"home-page-route": "Home Page Route",
-	"custom-route": "Custom Route",
-	"allow-user-home-pages": "Allow User Home Pages",
-	"home-page-title": "Title of the home page (default \"Home\")"
+	"home-page": "Tranh chủ",
+	"description": "Chọn trang abnj muốn làm trang chủ",
+	"home-page-route": "Đường dẫn (route) đến trang chủ",
+	"custom-route": "Route tùy chỉnh",
+	"allow-user-home-pages": "Cho phép các trang chủ của người dùng",
+	"home-page-title": "Title cho trang chủ (mặc định \"Home\")"
 }

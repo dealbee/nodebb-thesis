@@ -1,10 +1,10 @@
 {
-    "administrators": "Administrators",
-    "global-moderators": "Global Moderators",
-    "no-global-moderators": "No Global Moderators",
-    "moderators-of-category": "%1 Moderators",
-    "no-moderators": "No Moderators",
-    "add-administrator": "Add Administrator",
-    "add-global-moderator": "Add Global Moderator",
-    "add-moderator": "Add Moderator"
+    "administrators": "Quản trị viên",
+    "global-moderators": "Kiểm duyệt viên hệ thống",
+    "no-global-moderators": "Không có kiểm duyệt viên hệ thống",
+    "moderators-of-category": "%1 kiểm duyệt viên",
+    "no-moderators": "Không có kiểm duyệt viên",
+    "add-administrator": "Thêm quản trị viên",
+    "add-global-moderator": "Thêm kiểm duyệt viên hệ thống",
+    "add-moderator": "Thêm kiểm duyệt viên"
 }

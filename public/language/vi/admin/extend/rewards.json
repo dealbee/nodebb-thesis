@@ -1,17 +1,17 @@
 {
-	"rewards": "Rewards",
-	"condition-if-users": "If User's",
-	"condition-is": "Is:",
-	"condition-then": "Then:",
-	"max-claims": "Amount of times reward is claimable",
-	"zero-infinite": "Enter 0 for infinite",
-	"delete": "Delete",
-	"enable": "Enable",
-	"disable": "Disable",
-	"control-panel": "Rewards Control",
-	"new-reward": "New Reward",
+	"rewards": "Phần thưởng",
+	"condition-if-users": "Nếu",
+	"condition-is": "là:",
+	"condition-then": "thì:",
+	"max-claims": "Giới hạn số lần thưởng",
+	"zero-infinite": "Nhập 0 tức là không giới hạn",
+	"delete": "Xóa",
+	"enable": "Bật",
+	"disable": "Tắt",
+	"control-panel": "Kiểm soát",
+	"new-reward": "Thêm phần thưởng",
 
-	"alert.delete-success": "Successfully deleted reward",
-	"alert.no-inputs-found": "Illegal reward - no inputs found!",
-	"alert.save-success": "Successfully saved rewards"
+	"alert.delete-success": "Xóa phần thưởng thành công",
+	"alert.no-inputs-found": "Phần thưởng không hợp lệ - không tìm thấy đầu vào!",
+	"alert.save-success": "Lưu thành công"
 }

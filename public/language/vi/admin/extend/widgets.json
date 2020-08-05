@@ -1,11 +1,11 @@
 {
-	"available": "Available Widgets",
-	"explanation": "Select a widget from the dropdown menu and then drag and drop it into a template's widget area on the left.",
-	"none-installed": "No widgets found! Activate the essential widgets plugin in the <a href=\"%1\">plugins</a> control panel.",
-	"clone-from": "Clone widgets from",
-	"containers.available": "Available Containers",
-	"containers.explanation": "Drag and drop on top of any active widget",
-	"containers.none": "None",
+	"available": "Widgets hiện hành",
+	"explanation": "Chọn một widget từ menu thả xuống, sau đó kéo và thả nó vào khu vực tiện ích của mẫu ở bên trái.",
+	"none-installed": "Không tìm thấy widget nào! Kích hoạt plugin widget cần thiết tại\n <a href=\"%1\">plugins</a>.",
+	"clone-from": "Sao chép widgets từ",
+	"containers.available": "Các containers có sẵn",
+	"containers.explanation": "Kéo và thả lên đầu các widget đang có",
+	"containers.none": "Không có",
 	"container.well": "Well",
 	"container.jumbotron": "Jumbotron",
 	"container.panel": "Panel",
@@ -13,18 +13,18 @@
 	"container.panel-body": "Panel Body",
 	"container.alert": "Alert",
 
-	"alert.confirm-delete": "Are you sure you wish to delete this widget?",
-	"alert.updated": "Widgets Updated",
-	"alert.update-success": "Successfully updated widgets",
-	"alert.clone-success": "Successfully cloned widgets",
+	"alert.confirm-delete": "Bạn có muốn xóa widget này?",
+	"alert.updated": "Thêm widget thành công",
+	"alert.update-success": "Cập nhật widget thành công",
+	"alert.clone-success": "Sao chép widget thành công",
 
-	"error.select-clone": "Please select a page to clone from",
+	"error.select-clone": "Hãy chọn trang để sao chép",
 
-	"title": "Title",
-	"title.placeholder": "Title (only shown on some containers)",
+	"title": "Tiêu đề",
+	"title.placeholder": "Tiêu đề (chỉ hiển thị ở vài containers)",
 	"container": "Container",
-	"container.placeholder": "Drag and drop a container or enter HTML here.",
-	"show-to-groups": "Show to groups",
-	"hide-from-groups": "Hide from groups",
-	"hide-on-mobile": "Hide on mobile"
+	"container.placeholder": "Kéo thả container hoặc thêm HTML tại đây.",
+	"show-to-groups": "Hiện thị đối với nhóm",
+	"hide-from-groups": "Ẩn đi đói với nhóm",
+	"hide-on-mobile": "Ẩn trên mobile"
 }

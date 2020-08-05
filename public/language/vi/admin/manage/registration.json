@@ -1,20 +1,20 @@
 {
-	"queue": "Queue",
-	"description": "There are no users in the registration queue. <br> To enable this feature, go to <a href=\"%1\">Settings &rarr; User &rarr; User Registration</a> and set <strong>Registration Type</strong> to \"Admin Approval\".",
+	"queue": "Hàng đợi",
+	"description": "Không có người dùng nào đang đợi. <br> Để bật chức năng này, truy cập <a href=\"%1\">Settings &rarr; User &rarr; User Registration</a> và chọn <strong>Registration Type</strong> thành \"Admin Approval\".",
 
-	"list.name": "Name",
+	"list.name": "Tên",
 	"list.email": "Email",
 	"list.ip": "IP",
-	"list.time": "Time",
+	"list.time": "Thời gian",
 	"list.username-spam": "Frequency: %1 Appears: %2 Confidence: %3",
 	"list.email-spam": "Frequency: %1 Appears: %2",
 	"list.ip-spam": "Frequency: %1 Appears: %2",
 
-	"invitations": "Invitations",
-	"invitations.description": "Below is a complete list of invitations sent. Use ctrl-f to search through the list by email or username. <br><br>The username will be displayed to the right of the emails for users who have redeemed their invitations.",
-	"invitations.inviter-username": "Inviter Username",
-	"invitations.invitee-email": "Invitee Email",
-	"invitations.invitee-username": "Invitee Username (if registered)",
+	"invitations": "Lời mời",
+	"invitations.description": "Bên dưới là những lời mời đã được gửi đi. Dùng ctrl-F để tìm kiếm bằng usernam hoặc email. <br><br>Tên người dùng sẽ được hiển thị ở bên phải các email cho người dùng đã đổi lời mời của họ.",
+	"invitations.inviter-username": "Tên người mời",
+	"invitations.invitee-email": "Email được mời",
+	"invitations.invitee-username": "Tên người được mời (nếu đã đăng ký)",
 
-	"invitations.confirm-delete": "Are you sure you wish to delete this invitation?"
-} 
+	"invitations.confirm-delete": "Bạn có muốn hủy lời mời này?"
+}

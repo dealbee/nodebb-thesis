@@ -1,9 +1,9 @@
 {
-    "upload-file": "Upload File",
-    "filename": "Filename",
-    "usage": "Post Usage",
-    "orphaned": "Orphaned",
-    "size/filecount": "Size / Filecount",
-    "confirm-delete": "Do you really want to delete this file?",
+    "upload-file": "Tải file",
+    "filename": "Tên file",
+    "usage": "Đã dùng",
+    "orphaned": "Không được dùng",
+    "size/filecount": "Kích cỡ / Số file",
+    "confirm-delete": "Bạn có muốn xóa file này?",
     "filecount": "%1 files"
 }

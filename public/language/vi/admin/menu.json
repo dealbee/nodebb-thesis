@@ -8,7 +8,7 @@
 	"general/social": "Xã hội",
 
 	"section-manage": "Quản lý",
-	"manage/categories": "Danh mục",
+	"manage/categories": "Chủ đề",
 	"manage/privileges": "Đặc quyền",
 	"manage/tags": "Thẻ",
 	"manage/users": "Người dùng",
@@ -40,9 +40,9 @@
 
 	"settings.page-title": "Cài đặt %1",
 
-	"section-appearance": "Xuất hiện",
-	"appearance/themes": "Giao diện",
-	"appearance/skins": "Kiểu dáng",
+	"section-appearance": "Giao diện",
+	"appearance/themes": "Theme",
+	"appearance/skins": "Style",
 	"appearance/customise": "Nội dung tùy chỉnh (HTML/JS/CSS)",
 
 	"section-extend": "Mở rộng",

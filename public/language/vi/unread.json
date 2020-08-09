@@ -6,10 +6,10 @@
     "selected": "Đã chọn",
     "all": "Tất cả",
     "all_categories": "Tất cả chủ đề",
-    "topics_marked_as_read.success": "Chủ đề được đánh dấu đã đọc",
-    "all-topics": "Toàn bộ chủ đề",
-    "new-topics": "Các chủ đề mới",
-    "watched-topics": "Các chủ đề đuợc quan tâm",
-    "unreplied-topics": "Chủ đề chưa có phản hồi nào",
+    "topics_marked_as_read.success": "Bài viết được đánh dấu đã đọc",
+    "all-topics": "Toàn bộ bài viết",
+    "new-topics": "Các bài viết mới",
+    "watched-topics": "Các bài viết đuợc quan tâm",
+    "unreplied-topics": "Bài viết chưa có phản hồi nào",
     "multiple-categories-selected": "Chọn nhiều cùng lúc"
 }
